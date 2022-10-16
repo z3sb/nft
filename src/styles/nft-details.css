@@ -1,0 +1,59 @@
+.single__nft-img{
+  border-radius: 8px;
+}
+.single__nft-seen span,
+.single__nft-more span{
+  color: #fff;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.single__nft-seen span i,
+.single__nft-more span i{
+  padding: 5px;
+  border-radius: 50px;
+}
+.single__nft-seen span i{
+  background: #000;
+}
+.single__nft-more span i{
+  background: #343444;
+}
+.nft__creator{
+  background: #343444;
+  padding: 15px;
+  border-radius: 7px;
+  width: 50%;
+}
+.creator__img{
+  width: 40px;
+  height: 40px;
+}
+.creator__detail p{
+  font-size: 0.7rem;
+  font-weight: 300;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.creator__detail h6{
+  color: #fff;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+@media only screen and (max-width: 992px) {
+  .single__nft__content h2{
+    font-size: 1.3rem;
+  }
+  .single__nft__content p{
+    font-size: 0.8rem;
+    line-height: 28px;
+  }
+  .nft__creator{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 576px){
+  .single__nft__content h2{
+    margin-top: 15px;
+  }
+}
